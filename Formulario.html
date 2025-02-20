@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body class="paginicioformulario">
+    <h1 id="cabeceraformulario">Breaking Bad - Que comience el juego!</h1>
+            <form action="mailto:raul.rodriguez@proeduca.com">
+                <br>
+                <fieldset id="datospersonales">
+                    <legend>Datos personales</legend>
+                    Nombre: <input type="text" placeholder="*Campo obligatorio" name="nombre" id="">
+                <br>Apellidos: <input type="text" placeholder="*Campo obligatorio" name="apellido" id="">
+                    <fieldset id="datospersonales">
+                        <legend>Dirección postal</legend>
+                        Calle:<input type="text">
+                       
+                        <br>Numero: <input type="text" name="Apellidos">
+                       
+                        <br>Piso: <input type="text" name="Apellidos">
+                        
+                        <br>Código Postal: <input type="text" name="Apellidos">
+                        
+                        <br>Ciudad: <input type="text" name="Apellidos">
+                        
+                        <br>DNI: <input type="text" name="Apellidos">
+                        
+                        <br>Correo electrónico: <input type="text" placeholder="*Campo obligatorio" name="Apellidos">
+                    </fieldset>
+                <br>Sexo:
+                <br><input type="radio" name="titulación" value="Mujer">Mujer
+                <br><input type="radio" name="titulación" value="Hombre">Hombre
+                <br>
+                <br>Fecha de nacimiento: <input type="date" name="calendario" id="">
+                <br>
+            </fieldset>
+            <br>
+                Selecciona tu personaje favorito: 
+                    <select name="sistemas">
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo</option>
+                        <option value="5">Fring</option>
+                        <option value="6">Pollos Hermanos</option>
+                        <option value="7">Otros personajes</option>
+                    </select>
+                    <br>
+                <br>Escribe un comentario: 
+                <br><textarea name="comentario" id="cajacoment">Escribe Lo que quieras</textarea>
+            <br><action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+                Adjunta los documentos necesarios: <input type="file" name="adjunto" accept=".pdf" multiple>
+            <br>
+            <br>
+            <div class="contenedor-botones">
+                <input type="submit" value="Enviar"> 
+                <input type="reset" value="Borrar">
+            </div>
+            </form>
+</body>
+</html>
